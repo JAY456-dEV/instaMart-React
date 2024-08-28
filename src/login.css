@@ -1,0 +1,372 @@
+.container-2 {
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 54px;
+    padding: 20px 0;
+}
+
+.inside-info {
+    display: flex;
+    gap: 40px;
+}
+
+.right-info {
+    padding: 10px 120px 70px 0;
+}
+
+.login-logo img {
+    width: 35px;
+    top: 10%;
+    left: 19.5%;
+    position: absolute;
+}
+
+.login-top-detail h1 {
+    font-family: "Smooch Sans", sans-serif;
+    text-align: center;
+    font-size: 80px;
+}
+
+.login-top-detail p {
+    font-family: "poppins", sans-serif;
+    text-align: center;
+    font-size: 13px;
+    position: absolute;
+    top: 20.4%;
+    left: 26%;
+}
+
+.login-page-input input {
+    margin-top: 16px;
+    padding: 13px 102px 13px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #F2F2F2;
+    width: 349px;
+}
+
+.login-page-input input::placeholder {
+    font-family: "poppins", sans-serif;
+    color: black;
+    font-size: 12px;
+}
+
+/* .fa-user {
+    position: absolute;
+    top: 26.5%;
+    left: 24.5%;
+} */
+
+.fa-lock {
+    position: absolute;
+    top: 38.9%;
+    left: 24.5%;
+}
+
+.login-btn-2 button {
+    background-color: #1C1C1C;
+    margin-top: 22px;
+    border-radius: 10px;
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    padding: 11px;
+    font-size: 13px;
+    color: white;
+    width: 100%;
+}
+
+.login-btn-2 a {
+    color: white;
+}
+
+.log-other {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.log-other h4,
+span {
+    display: inline;
+}
+
+.log-other h4 {
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.log-other span {
+    font-size: 14px;
+}
+
+/* .log-other::before {
+    content: '';    
+    position: absolute;
+    border: 1px solid #F0EDFF;
+    width: 6%;
+    top: 61%;
+    left: 22.5%;
+}
+
+.log-other ::after {
+    content: '';
+    position: absolute;
+    border: 1px solid #F0EDFF;
+    width: 7%;
+    top: 61%;
+    left: 38.3%;
+} */
+
+.log-google {
+    border: 1px solid black;
+    margin-top: 17px;
+    margin-bottom: 15px;
+    padding: 13px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* .log-google a,
+h4 {
+    display: inline;
+    color: black;
+    font-family: "poppins", sans-serif;
+    font-size: 12px;
+} */
+
+.log-google img {
+    width: 20px;
+}
+
+/* login left image */
+
+.left-info-right img {
+    width: 498px;
+    border-radius: 40px;
+    position: absolute;
+    left: 48.5%;
+}
+
+.left-info-right .bgflower {
+    position: absolute;
+    width: 50px;
+    top: 80%;
+    opacity: .8;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* registration page */
+
+.main {
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 45px auto;
+}
+
+.right-img img {
+    width: 362px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-top: 4px;
+}
+
+.bgcolor {
+    background-color: white;
+    /* height: 535px; */
+    padding: 0px 50px 50px;
+    width: 600px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    position: relative;
+}
+
+/* .logo img {
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+} */
+
+/* .top-detail h1 {
+    text-align: center;
+    margin-top: 28px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 5px;
+} */
+
+.top-detail p {
+    text-align: center;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.login-btn {
+    border: 0.5px solid #D2D2D2;
+    width: 66%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+
+.login-btn a {
+    color: black;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+}
+
+.login-btn img {
+    width: 15px;
+}
+
+.login-info {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login-info input {
+    padding: 14px 152px 14px 16px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.bottom-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.rem-me {
+    font-size: 15px;
+}
+
+.check-btn {
+    position: absolute;
+    left: 25%;
+}
+
+.main-bottom {
+    margin-left: 85px;
+    margin-top: 55px;
+}
+
+.reg-btn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+}
+
+.account-text {
+    margin-left: 45px;
+    color: black;
+}
+
+.log-change {
+    color: orangered;
+}
+
+/* for js login */
+
+.userError {
+    font-size: 0.8rem;
+    color: red;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.passError {
+    font-size: 0.8rem;
+    color: red;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.errorReg {
+    margin-left: 100px;
+    color: red;
+}
+
+.newuser {
+    margin-top: 15px;
+    display: flex;
+    gap: 8px;
+}
+
+.login-btn button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.userProfile {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+}
+
+.userProfile-main {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* profile card */
+
+.card-profile-user {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+.profile-head {
+    margin: 20px 0;
+}
+
+.userlogout {
+    padding: 6px;
+    border: none;
+    background-color: #1C1C1C;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
