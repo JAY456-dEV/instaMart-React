@@ -7,6 +7,7 @@ function InStockProd() {
 
     const { heart, changeHeart, convertIntoNormal, setInStockProduct, instockProduct } = useContext(ProductDataContext)
 
+
     const { loading, apiData } = useFetch(`https://dummyjson.com/products?limit=150`)
 
     useEffect(() => {
@@ -74,7 +75,7 @@ function InStockProd() {
                 </div>
 
                 <div className="banner">
-                    <img src="./Img/image (43).png" alt="" />
+                    <img src="https://i.ibb.co/RpJR66K/image-43.png" alt="" />
                 </div>
             </section >
         </>
