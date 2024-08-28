@@ -38,7 +38,7 @@ function LoginPage() {
                 <div className="inside-info">
                     <div className="right-info">
                         <div className="login-logo">
-                            <img src="./img/Logo.png" alt="" />
+                            <img src="../img/Logo.png" alt="" />
                         </div>
 
                         <div className="login-top-detail">
@@ -75,7 +75,7 @@ function LoginPage() {
 
                         <div className="log-other-btn">
                             <div className="log-google" onClick={handleGoogleLogin} style={{ cursor: "pointer" }}>
-                                <img src="./img/google.png" alt="" />
+                                <img src="https://i.ibb.co/tHGYY9Z/google.png" alt="" />
                                 <a>Login with <h4>Google</h4></a>
                             </div>
                             {/* 
@@ -88,8 +88,7 @@ function LoginPage() {
                     </div>
 
                     <div className="left-info-right">
-                        <img src="./img/loginpage.png" alt="" />
-                        <img className="bgflower" src="./img/loginpagebg.png" alt="" />
+                        <img src="https://i.ibb.co/s6SxHPm/loginpage.png" alt="" />
                     </div>
 
                 </div>
