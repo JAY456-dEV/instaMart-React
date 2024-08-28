@@ -7,8 +7,6 @@ function InStockProd() {
 
     const { heart, changeHeart, convertIntoNormal, setInStockProduct, instockProduct } = useContext(ProductDataContext)
 
-    // const item = products.slice(9, 15)
-
     const { loading, apiData } = useFetch(`https://dummyjson.com/products?limit=150`)
 
     useEffect(() => {
