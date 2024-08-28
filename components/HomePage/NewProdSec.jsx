@@ -1,12 +1,11 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { products } from '../../../ProductData'
+// import { products } from '../../../ProductData'
 import { ProductDataContext } from '../../context/context'
 import useFetch from '../../customHooks/useFetch'
 
 function NewProdSec() {
 
     const { addToCart, addMultipleItem, removeItem, checkBtn, product, changeHeart, convertIntoNormal, heart, setNewProdSec, newProdSec } = useContext(ProductDataContext)
-
 
     const { loading, apiData } = useFetch(`https://dummyjson.com/products`)
 
