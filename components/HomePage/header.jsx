@@ -141,12 +141,11 @@ function Header() {
                     </div>
                 </nav>
             }
-
             <header>
                 <div className="header">
                     <div className="header-content">
                         <div className="logo">
-                            <img src="./Img/logo3.png" alt="" />
+                            <img src="https://i.ibb.co/87Wjzzm/logo3.png" alt="" />
                             <div className="categories">
                                 <i className="fa-solid fa-bars"></i>
                                 <p>Categories</p>
