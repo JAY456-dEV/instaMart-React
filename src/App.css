@@ -318,7 +318,7 @@ header {
 /* hero section */
 
 .hero-bg {
-  background-image: url(./Img/hero\ img.png);
+  background-image: url('https://i.ibb.co/jzrYvP1/heroimg.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -703,7 +703,7 @@ header {
 }
 
 .left-cate {
-  background-image: url(./Img/cate-1.png);
+  background-image: url('https://i.ibb.co/j6n7zSV/cate-1.png');
   background-size: contain;
   width: 50%;
   height: 50vh;
@@ -752,7 +752,7 @@ header {
 }
 
 .right-cate {
-  background-image: url(./Img/cate-2.png);
+  background-image: url('https://i.ibb.co/fdXd0tK/cate-2.png');
   background-size: contain;
   width: 50%;
   height: 50vh;
@@ -1135,7 +1135,7 @@ header {
 }
 
 .banner-first-1 {
-  background-image: url(./Img/banner-first.png);
+  background-image: url('https://i.ibb.co/j64QXrV/banner-first.png');
   background-size: contain;
   background-repeat: no-repeat;
   width: 426px;
@@ -1147,11 +1147,11 @@ header {
 }
 
 .banner-first-2 {
-  background-image: url(./Img/banner-second.png);
+  background-image: url('https://i.ibb.co/hDMxvn7/banner-second.png');
 }
 
 .banner-first-3 {
-  background-image: url(./Img/banner-third.png);
+  background-image: url('https://i.ibb.co/VVXPT1q/banner-third.png');
 }
 
 .banner-first-1 h4 {
