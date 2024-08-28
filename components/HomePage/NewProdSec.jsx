@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from 'react'
-// import { products } from '../../../ProductData'
 import { ProductDataContext } from '../../context/context'
 import useFetch from '../../customHooks/useFetch'
 
