@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { ProductDataContext } from '../../context/context'
 import useCategory from '../../customHooks/useCategory'
@@ -15,8 +15,16 @@ function GroceryCategory() {
     //     }
     // }, [apiData])
 
-    const { loading, allCategory } = useCategory(`https://dummyjson.com/products?limit=150`, 6)
+    const imgCato = [
+        "https://i.ibb.co/TmWB8XT/category0.jpg",
+        "https://i.ibb.co/NFpCTzc/category1.jpg",
+        "https://i.ibb.co/wdQTw4t/category2.jpg",
+        "https://i.ibb.co/BqmdYPF/category3.jpg",
+        "https://i.ibb.co/hC6SRM3/category4.jpg",
+        "https://i.ibb.co/Nj4cV1D/category5.jpg",
+    ]
 
+    const { loading, allCategory } = useCategory(`https://dummyjson.com/products?limit=150`, 6)
 
     return (
         <>
@@ -27,10 +35,11 @@ function GroceryCategory() {
                         <div className="food">
                             {
                                 !loading ? allCategory && allCategory.length && allCategory.map((cate, idx) => {
+                                    console.log(cate)
                                     if (idx < 6) {
                                         return (
                                             <Link to={`/category/${cate}`} className="circle" key={idx}>
-                                                <img src={`./Img/category${idx}.jpg`} alt="" />
+                                                <img src={imgCato[idx]} alt="" />
                                                 <h3 className='category'>{cate}</h3>
                                             </Link>
                                         )
