@@ -1,6 +1,5 @@
 import React, { useContext } from 'react'
 import { ProductDataContext } from '../../context/context'
-import { products } from '../../../ProductData'
 import { createPortal } from 'react-dom'
 import CartSimmer from '../../simmer/cartsimmer'
 import useFetch from '../../customHooks/useFetch'
@@ -77,7 +76,7 @@ function WishlishtCart({ setClickedWishlist }) {
                                     <p>Grand Total</p>
                                     <p>₹{
                                         product.map((prod) => {
-                                            let show = products.find((item) => item.id === prod.id)
+                                            let show = apiData && apiData.length && apiData.find((item) => item.id === prod.id)
                                             return show.price * prod.item
                                         }).reduce((acc, curr) => {
                                             return acc + curr
@@ -94,7 +93,14 @@ function WishlishtCart({ setClickedWishlist }) {
                             <div className='btnToProceed'>
                                 <button className='totalBill-btn'>
                                     <div className='infoPrice'>
-                                        <p>₹57</p>
+                                        <p>₹{
+                                        product.map((prod) => {
+                                            let show = apiData && apiData.length && apiData.find((item) => item.id === prod.id)
+                                            return show.price * prod.item
+                                        }).reduce((acc, curr) => {
+                                            return acc + curr
+                                        }, 0)
+                                    }</p>
                                         <p className='totalprice-text'>TOTAL</p>
                                     </div>
                                     <div className='loginto'>
