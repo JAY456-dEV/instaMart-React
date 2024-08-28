@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { products } from '../../../ProductData'
+// import { products } from '../../../ProductData'
 import { ProductDataContext } from '../../context/context'
 import useFetch from '../../customHooks/useFetch'
 import InStocksimmer from '../../simmer/inStocksimmer'
@@ -8,7 +8,7 @@ function InStockProd() {
 
     const { heart, changeHeart, convertIntoNormal, setInStockProduct, instockProduct } = useContext(ProductDataContext)
 
-    const item = products.slice(9, 15)
+    // const item = products.slice(9, 15)
 
     const { loading, apiData } = useFetch(`https://dummyjson.com/products?limit=150`)
 
