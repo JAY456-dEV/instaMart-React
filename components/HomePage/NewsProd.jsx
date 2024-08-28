@@ -39,7 +39,7 @@ function NewsProd() {
                         <p>Some of the new posts this week</p>
                         <div className="news-flex">
                             <div className="news-first">
-                                <img src="../Img/news-1.png" alt="" />
+                                <img src="https://i.ibb.co/ydtdBVx/news-1.png" alt="news-1" border="0" />
                                 <h4>How grocers are approaching
                                     delivery as the market evolves
                                 </h4>
@@ -51,7 +51,7 @@ function NewsProd() {
                             </div>
 
                             <div className="news-first">
-                                <img src="../Img/news-2.png" alt="" />
+                                <img src="https://i.ibb.co/7YhS0b7/news-2.png" alt="news-2" border="0" />
                                 <h4>The Friday Checkout: Food insecurity
                                     keeps retailers off balance
                                 </h4>
@@ -63,7 +63,7 @@ function NewsProd() {
                             </div>
 
                             <div className="news-first">
-                                <img src="../Img/news-3.png" alt="" />
+                                <img src="https://i.ibb.co/5T923Xv/news-3.png" alt="news-3" border="0" />
                                 <h4>Consumer want grocer to use AI to
                                     help them save money Dunnhumby
                                 </h4>
@@ -75,7 +75,7 @@ function NewsProd() {
                             </div>
 
                             <div className="news-first">
-                                <img src="../Img/news-4.png" alt="" />
+                                <img src="https://i.ibb.co/Fm3Gggx/news-4.png" alt="news-4" border="0" />
                                 <h4>Order up! How grocers are replicating
                                     the restaurant experience in retail
                                 </h4>
