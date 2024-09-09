@@ -45,6 +45,8 @@ function LoginPage() {
                             <h1>Welcome</h1>
                             {/* <p>We are glad to see you back with us</p> */}
                         </div>
+                        <p>For Random Email Pass You Can Use: try@gmail.com
+                            <br />password: 12345678</p>
                         <div className="input-main">
                             <div className="login-page-input">
                                 {/* <i className="fa-regular fa-user"></i> */}
